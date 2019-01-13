@@ -1,0 +1,41 @@
+# 下载一个项目和它的整个代码历史
+$ git clone [url]
+
+
+
+# 新建一个分支，并切换到该分支
+git checkout -b [branch]
+
+
+# 查看修改的文件
+git status?
+
+
+# 添加当前目录的所有文件到暂存区
+?git add .
+
+
+# 提交暂存区到仓库区
+?git commit -m [message]
+
+
+# 取回远程仓库的变化，并与本地分支合并
+$ git pull [remote] [branch]
+
+
+# 上传本地指定分支到远程仓库
+?git push [remote] [branch]
+
+
+# 删除分支
+?git branch -d [branch-name]
+
+
+# 删除远程分支
+?git push origin --delete [branch-name]
+?git branch -dr [remote/branch]
+
+
+# 暂时将未提交的变化移除，稍后再移入
+$ git stash
+$ git stash pop
